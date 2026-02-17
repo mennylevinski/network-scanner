@@ -1,5 +1,13 @@
-# MIT License – © 2025 Menny Levinski
-# This file is used by Python_builder_version.bat for EXE packaging
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+Author: Menny Levinski
+
+Requirements:
+ - Python 3.0+
+ - pip install psutil
+"""
 
 import io
 import os
