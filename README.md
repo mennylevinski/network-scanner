@@ -85,7 +85,7 @@ Source: https://github.com/giampaolo/psutil/tree/master?tab=BSD-3-Clause-1-ov-fi
 ```bash
 network_scanner/
 │
-├── build/                # Compiled EXE output (PyInstaller)
+├── build/                # Ingredients for EXE (PyInstaller)
 │
 ├── media/                # Images, diagrams, UI assets
 │
