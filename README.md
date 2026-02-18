@@ -7,28 +7,6 @@ Licensed under the [MIT License](LICENSE).
 
 ---
 
-## 🏗 Project Build
-
-```bash
-main/
-│
-├── build/                # Compiled EXE output (PyInstaller)
-│
-├── media/                # Images, diagrams, UI assets
-│
-├── script/               # Cross-platform version file
-│
-├── CHANGELOG.md          # Version history
-├── CONTRIBUTING.md       # Contribution guidelines
-├── LICENSE               # Project license
-├── README.md             # Main documentation
-├── SECURITY.md           # Security policy
-└── .gitignore
-
-```
-
----
-
 ## ✨ Features
 
 - **LAN Detection Mode**, detects your IPv4 subnet and scans the local network
@@ -99,3 +77,28 @@ Source: https://github.com/giampaolo/psutil/tree/master?tab=BSD-3-Clause-1-ov-fi
 - Linux:<br> 
       1. `chmod +x lite_net_scanner.py` <br>
       2. `python3 lite_net_scanner.py`
+
+---
+
+## 🏗 Project Structure
+
+```bash
+network_scanner/
+│
+├── build/                # Compiled EXE output (PyInstaller)
+│
+├── media/                # Images, diagrams, UI assets
+│
+├── script/               # Cross-platform version file
+│
+├── CHANGELOG.md          # Version history
+├── CONTRIBUTING.md       # Contribution guidelines
+├── LICENSE               # Project license
+├── README.md             # Main documentation
+├── SECURITY.md           # Security policy
+└── .gitignore
+```
+
+---
+
+### made by Menny Levinski
