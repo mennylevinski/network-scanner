@@ -43,7 +43,7 @@ If you trust this application, you may need to add it as an exception in your an
 
 ### Windows EXE
 
-Download the latest [Lite_Net_Scanner_1.1.0.zip](https://github.com/mennylevinski/network_scanner/releases/download/1.1.0/Lite_Net_Scanner_1.1.0.zip). Unzip and double-click the executable to run.
+Download the latest [Lite_Net_Scanner_1.1.0.zip](https://github.com/mennylevinski/network-scanner/releases/download/1.1.0/Lite_Net_Scanner_1.1.0.zip). Unzip and double-click the executable to run.
 
 No Python installation is required when using the EXE.
 
@@ -83,7 +83,7 @@ Source: https://github.com/giampaolo/psutil/tree/master?tab=BSD-3-Clause-1-ov-fi
 ## 📁 Project Structure
 
 ```bash
-network_scanner/
+network-scanner/
 │
 ├── build/                # Ingredients for EXE (PyInstaller)
 │
