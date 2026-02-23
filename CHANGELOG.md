@@ -1,6 +1,16 @@
 # Changelog
 
-## [1.1.0] – 2026-02-17 – Latest
+## [1.2.0] – 2026-02-23 – Latest
+
+### Added
+- Essential stability optimizations for LAN detection mode
+
+### Fixed
+- Fixed ARP table tracing issue, devices are now detected correctly
+
+---
+
+## [1.1.0] – 2026-02-17
 
 ### Added
 - Enhanced and balanced Windows 11 LAN scanning
