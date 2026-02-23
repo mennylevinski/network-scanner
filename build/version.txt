@@ -17,8 +17,8 @@ VSVersionInfo(
                     [
                         StringStruct('FileDescription', 'Lite Network Scanner'),
                         StringStruct('FileVersion', '1.2.0'),
-                        StringStruct('InternalName', 'LiteNetScanner.exe'),
-                        StringStruct('OriginalFilename', 'LiteNetScanner.exe'),
+                        StringStruct('InternalName', 'Lite_Net_Scanner.exe'),
+                        StringStruct('OriginalFilename', 'Lite_Net_Scanner.exe'),
                         StringStruct('ProductName', 'Lite Network Scanner'),
                         StringStruct('ProductVersion', '1.2.0'),
                         StringStruct('LegalCopyright', '(c) 2025 Menny Levinski')
