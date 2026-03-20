@@ -70,13 +70,13 @@ Source: https://github.com/giampaolo/psutil/tree/master?tab=BSD-3-Clause-1-ov-fi
 - Requires: `pip install psutil`
 
 #### 2️ Script
-- Download the script [lite_net_scanner.py](script/lite_net_scanner.py)
+- Download the script [lite_net_scanner.py](uspector-net.py)
 
 #### 3️⃣ Run
-- Windows: `python lite_net_scanner.py`
+- Windows: `python uspector-net.py`
 - Linux:<br> 
-      1. `chmod +x lite_net_scanner.py` <br>
-      2. `python3 lite_net_scanner.py`
+      1. `chmod +x uspector-net.py` <br>
+      2. `python3 uspector-net.py`
 
 ---
 
