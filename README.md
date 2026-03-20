@@ -1,6 +1,6 @@
 # Uspector – Network Scanner
 
-Cross-platform Python tool designed to discover devices on your local IPv4 network.
+Uspector is a cross-platform Python tool designed to discover devices and detect open ports on your local IPv4 network.
 Built for ethical diagnostics, security awareness, and administrative auditing. Suitable for personal and organizational use.
 
 Licensed under the [MIT License](LICENSE).
