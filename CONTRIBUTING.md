@@ -1,4 +1,4 @@
-# Contributing to Lite Network Scanner
+# Contributing to Uspector Network Scanner
 
 Thank you for your interest in contributing to **Uspector Network Scanner**, Contributions of all kinds are welcome, code, documentation, testing, ideas, and feedback.
 
