@@ -2,7 +2,7 @@
 
 ## 🔐 Supported Versions
 
-The following versions of **Lite Network Scanner** are supported:
+The following versions of **Uspector Network Scanner** are supported:
 
 | Version        | Supported |
 | -------------- | --------- |
