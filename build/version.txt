@@ -1,7 +1,7 @@
 VSVersionInfo(
     ffi=FixedFileInfo(
-        filevers=(1, 2, 0, 0),
-        prodvers=(1, 2, 0, 0),
+        filevers=(1, 3, 0, 0),
+        prodvers=(1, 3, 0, 0),
         mask=0x3F,
         flags=0x0,
         OS=0x40004,
@@ -15,12 +15,12 @@ VSVersionInfo(
                 StringTable(
                     '040904B0',
                     [
-                        StringStruct('FileDescription', 'Lite Network Scanner'),
-                        StringStruct('FileVersion', '1.2.0'),
-                        StringStruct('InternalName', 'Lite_Net_Scanner.exe'),
-                        StringStruct('OriginalFilename', 'Lite_Net_Scanner.exe'),
-                        StringStruct('ProductName', 'Lite Network Scanner'),
-                        StringStruct('ProductVersion', '1.2.0'),
+                        StringStruct('FileDescription', 'Uspector'),
+                        StringStruct('FileVersion', '1.3.0'),
+                        StringStruct('InternalName', 'Uspector.exe'),
+                        StringStruct('OriginalFilename', 'Uspector.exe'),
+                        StringStruct('ProductName', 'Uspector'),
+                        StringStruct('ProductVersion', '1.3.0'),
                         StringStruct('LegalCopyright', '(c) 2025 Menny Levinski')
                     ]
                 )

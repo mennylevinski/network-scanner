@@ -1,4 +1,4 @@
-Lite Network Scanner
+Uspector
 MIT License – © 2025 Menny Levinski
 https://github.com/mennylevinski/network-scanner?tab=MIT-1-ov-file
 
@@ -13,7 +13,7 @@ The author assumes no liability for misuse or for actions that violate applicabl
 
 Safety Notice
 
-Lite Network Scanner is safe to use when downloaded from the official source.
+Uspector is safe to use when downloaded from the official source.
 Because the application performs network discovery and scanning, some antivirus products may incorrectly flag or restrict its execution. This is a common false positive for legitimate network diagnostic tools.
 If you trust this application, you may need to add it as an exception in your antivirus software.
 
