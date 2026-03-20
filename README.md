@@ -43,7 +43,7 @@ If you trust this application, you may need to add it as an exception in your an
 
 ### Windows EXE
 
-Download the latest [Uspector_Net_Scanner_1.3.0.zip](https://github.com/mennylevinski/uspector-net/releases/download/1.3.0/Uspector_1.3.0.zip). Unzip and double-click the executable to run.
+Download the latest [Uspector_1.3.0.zip](https://github.com/mennylevinski/uspector-net/releases/download/1.3.0/Uspector_1.3.0.zip). Unzip and double-click the executable to run.
 
 No Python installation is required when using the EXE.
 
