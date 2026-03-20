@@ -33,7 +33,7 @@ Use responsibly and in compliance with your local governance.
 
 ## 📌 Safety Notice
 
-Lite Network Scanner is safe to use when downloaded from the official source.
+Uspector Network Scanner is safe to use when downloaded from the official source.
 Because the application performs network discovery and scanning, some antivirus products may incorrectly flag or restrict its execution. This is a common false positive for legitimate network diagnostic tools.
 If you trust this application, you may need to add it as an exception in your antivirus software.
 
@@ -43,7 +43,7 @@ If you trust this application, you may need to add it as an exception in your an
 
 ### Windows EXE
 
-Download the latest [Lite_Net_Scanner_1.2.0.zip](https://github.com/mennylevinski/network-scanner/releases/download/1.2.0/Lite_Net_Scanner_1.2.0.zip). Unzip and double-click the executable to run.
+Download the latest [Uspector_Net_Scanner_1.3.0.zip](https://github.com/mennylevinski/uspector-net/releases/download/1.3.0/Uspector_1.3.0.zip). Unzip and double-click the executable to run.
 
 No Python installation is required when using the EXE.
 
@@ -89,12 +89,11 @@ uspector-net/
 │
 ├── media/                # Images, diagrams, UI assets
 │
-├── script/               # Cross-platform version file
-│
 ├── CHANGELOG.md          # Version history
 ├── CONTRIBUTING.md       # Contribution guidelines
 ├── LICENSE               # Project license
 ├── README.md             # Main documentation
 ├── SECURITY.md           # Security policy
+├── uspector-net.py       # Cross-platform version file
 └── .gitignore
 ```
