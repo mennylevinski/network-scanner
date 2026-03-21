@@ -87,9 +87,9 @@ uspector-net/
 │
 ├── build/                # Ingredients for EXE (PyInstaller)
 │
-├── media/                # Cross-platform version file
+├── media/                # Images, diagrams, UI assets
 │
-├── src/                  # Images, diagrams, UI assets
+├── src/                  # Source file used for cross-platform
 │
 ├── CHANGELOG.md          # Version history
 ├── CONTRIBUTING.md       # Contribution guidelines
