@@ -83,7 +83,7 @@ Source: https://github.com/giampaolo/psutil/tree/master?tab=BSD-3-Clause-1-ov-fi
 ## 📁 Project Structure
 
 ```bash
-uspector-net/
+uspector-net/             # Main project folder
 │
 ├── build/                # PyInstaller configs / EXE build
 │
