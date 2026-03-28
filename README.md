@@ -20,7 +20,7 @@ Licensed under the [MIT License](LICENSE).
 
 <br>
 
-![Uspector Screenshot](media/uspector_screenshot.png)
+![Uspector Network Scanner Screenshot](media/uspector_screenshot.png)
 
 ---
 
