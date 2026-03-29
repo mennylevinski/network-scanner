@@ -1,3 +1,9 @@
+<div align="center" style="line-height: 0;">
+    <a href="https://github.com/mennylevinski/uspector-net">
+        <img src="media/uspector-main-logo.png" alt="Uspector Logo" width="300" height="250">
+    </a>
+</div>
+
 # Uspector Network Scanner
 
 Uspector is a cross-platform Python tool designed to discover devices and detect open ports on your local IPv4 network.
