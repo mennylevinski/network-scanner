@@ -5,7 +5,7 @@ This file lists the common ports that **Uspector** scans, along with their stand
 > Uspector can detect if these ports are open on your local IPv4 network.
 
 | Port   | Protocol  | Service / Description        |
-|--------|-----------|-----------------------------|
+|--------|-----------|------------------------------|
 | 20     | TCP       | FTP Data                     |
 | 21     | TCP       | FTP Control                  |
 | 22     | TCP       | SSH                          |
