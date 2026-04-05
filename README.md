@@ -54,7 +54,7 @@ If you trust this application, you may need to add it as an exception in your an
 
 ### 💻 Windows EXE
 
-Download the latest **[release](https://github.com/mennylevinski/uspector-net/releases)**. Extract the archive, then double-click the executable "Uspector.exe" to run.
+Download the latest **[release](https://github.com/mennylevinski/uspector-net/releases)**. Extract the archive, then double-click **Uspector.exe**.
 
 > No Python installation required (portable executable)
 
