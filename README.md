@@ -87,8 +87,6 @@ If Microsoft Defender SmartScreen appears:
 ```bash
 uspector-net/             # Main project folder
 │
-├── build/                # PyInstaller configs / EXE build
-│
 ├── media/                # Images, diagrams, UI assets
 │
 ├── src/                  # Core application source code
