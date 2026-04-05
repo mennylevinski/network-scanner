@@ -4,7 +4,7 @@ All notable changes to **Uspector Network Scanner** are documented in this file.
 ---
 ## [1.4.0] – 2026-04-05 Latest
 ### Added
-- Added a native (Beta) Traffic Inspection feature as option 3 (Beta)
+- Added a basic Traffic Inspection feature as option 3 (Beta)
 - Real-time monitoring of active TCP connections for common ports
 
 ---
