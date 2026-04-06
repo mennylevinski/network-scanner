@@ -14,7 +14,6 @@
 <br>
 
 <a name="overview"></a>
-
 # Uspector Network Scanner
 
 **Uspector** is a lightweight, cross-platform Python network scanner that enables device discovery and open port detection across local IPv4 networks, including Wi-Fi and Ethernet.
@@ -62,7 +61,6 @@ If you trust this application, you may need to add it as an exception in your an
 ---
 
 <a name="installation"></a>
-
 ## 💾 Installation
 
 ### 💻 Windows EXE
