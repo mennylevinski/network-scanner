@@ -507,9 +507,6 @@ def _primary_mac() -> Optional[str]:
         return None
 
 # ======= Connection Inspector (Controlled) =======
-
-COMMON_PORTS_SET = set(COMMON_PORTS)
-
 def _get_process_name(pid):
     try:
         return psutil.Process(pid).name()
@@ -555,12 +552,11 @@ def start_connection_inspector(
 ):
     """
     Inspect active TCP connections every `interval` seconds.
-    Logs new connections for specified ports (default COMMON_PORTS) in clean flow.
     skip_time_wait: if True, ignores TIME_WAIT connections.
     timeout: max runtime in seconds (0 = unlimited)
     """
     stop_event = threading.Event()
-    ports_set = set(ports) if ports else COMMON_PORTS_SET
+    ports_set = set(ports) if ports else None
     seen = set()  # store already logged connections
 
     # Detect local IP once
@@ -570,7 +566,7 @@ def start_connection_inspector(
     local_subnet = guess_subnet(local_ip, 24)
 
     def _inspector():
-        logging.info(f"=== Connection Inspector started (ports: {ports if ports else 'ALL'}) ===")
+        logging.info(f"\n=== Connection Inspector started (ports: {ports if ports else 'all'}) ===")
         start_time = time.time()
 
         while not stop_event.is_set():
@@ -920,15 +916,15 @@ while True:
             timeout = 0
 
         # --- Ask for ports ---
-        raw_ports = input(f"\nType which ports to inspect (for example: 80, 443) or press Enter (COMMON_PORTS): ").strip()
+        raw_ports = input(f"\nType which ports to inspect (for example: 80, 443) or press Enter for all ports: ").strip()
         if raw_ports:
             try:
                 ports_to_monitor = [int(p.strip()) for p in raw_ports.split(",") if p.strip()]
             except ValueError:
-                print("Invalid port list, falling back to COMMON_PORTS")
-                ports_to_monitor = COMMON_PORTS
+                print("Invalid port list, falling back to all ports.")
+                ports_to_monitor = None
         else:
-            ports_to_monitor = COMMON_PORTS
+            ports_to_monitor = None
 
         choice = input("\nStart traffic inspection? (Y/N): ").strip().upper()
         if choice != "Y":
@@ -945,7 +941,6 @@ while True:
         finally:
             stop_event.set()
             thread.join()
-            logging.info("Traffic inspection stopped.")
         
     elif scan_mode == "4":
         input("\nGoodby! Press Enter to exit...")
