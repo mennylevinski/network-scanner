@@ -27,7 +27,6 @@ import itertools
 import psutil
 from typing import List, Dict, Iterable, Optional
 from io import StringIO
-from typing import Optional
 
 version = "1.4.0"
 
@@ -291,7 +290,7 @@ def _scan_ports(ip: str, ports: Iterable[int], timeout: float = 0.5, max_workers
                 s.settimeout(timeout)
                 if s.connect_ex((ip, port)) == 0:
                     return port
-        except:
+        except Exception:
             pass
         return None
 
@@ -328,7 +327,7 @@ def discover_hosts(subnet: ipaddress.IPv4Network, max_workers: int = 100, tcp_po
                     s.settimeout(timeout)
                     if s.connect_ex((ip, port)) == 0:
                         return ip
-            except:
+            except Exception:
                 continue
 
         # 2️⃣ Ping fallback only for small subnets (<50 hosts)
@@ -386,7 +385,7 @@ def discover_network(subnet, local_ip=None, do_port_scan=False, fast=False, port
                     s.settimeout(0.3)  # tcp_timeout
                     if s.connect_ex((ip, port)) == 0:
                         tcp_hits += 1
-            except:
+            except Exception:
                 pass
 
         if tcp_hits >= 1:
