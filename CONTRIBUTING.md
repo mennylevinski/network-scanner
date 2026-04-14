@@ -6,6 +6,18 @@ This project is an **open-source, cross-platform Python tool** designed for ethi
 
 ---
 
+## 📢 When Using AI Copilot
+
+Using GitHub Copilot in pull requests may cause Copilot to appear in repository activity or suggestion history.
+
+For clear attribution and meaningful contribution tracking:
+
+- Use Copilot as an assistant, not the primary author of changes
+- Ensure meaningful changes are reviewed and committed by humans
+- Prefer manual commits for core logic and important updates
+
+---
+
 ## 📜 Code of Conduct & Ethics
 
 By contributing, you agree to uphold the following principles:
