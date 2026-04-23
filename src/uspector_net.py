@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-Author: Menny Levinski
+Author: Menahem Levinski
 
 Requirements:
  - Python 3.0+
@@ -741,7 +741,7 @@ if __name__ == "__main__":
     setup_logger(level=log_level, logfile=log_file)
 
     # --- Detect local IP and subnet ---
-    print(f"MIT License – © 2025 Menny Levinski\n")
+    print(f"MIT License – © 2025 Menahem Levinski\n")
     interface, local = _get_default_interface_and_ip()
     mac = _primary_mac()
     logging.info(f"Uspector version {version}\n")
