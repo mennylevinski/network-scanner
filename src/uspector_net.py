@@ -140,9 +140,7 @@ def _is_noise_traffic(conn) -> bool:
 
         l_port = conn.laddr.port if conn.laddr else 0
 
-        # -------------------------
         # DROP IPv6 LINK-LOCAL NOISE
-        # -------------------------
         if isinstance(l_ip, str) and l_ip.startswith("fe80:"):
             return True
         if isinstance(r_ip, str) and r_ip.startswith("fe80:"):
@@ -152,9 +150,7 @@ def _is_noise_traffic(conn) -> bool:
         if l_ip in ("::", "::1"):
             return True
 
-        # -------------------------
         # IPv4 noise ranges
-        # -------------------------
         if l_ip.startswith(("127.", "169.254.")):
             return True
 
@@ -196,7 +192,7 @@ class Spinner:
         self.thread.join()
 
 # Default common ports to check quickly
-COMMON_PORTS_TCP = [20, 21, 22, 23, 53, 67, 68, 69, 80, 123, 137, 138, 139, 161, 389, 443, 445, 636, 989, 1433, 1434, 1521, 1900, 2222, 2375, 2376, 2049, 5601, 3306, 3389, 5432, 5060, 5061, 5900, 5985, 5986, 6379, 8000, 8080, 8443, 9042, 10443, 30015, 27017]
+COMMON_PORTS_TCP = [20, 21, 22, 23, 53, 67, 68, 69, 80, 123, 137, 138, 161, 389, 443, 445, 636, 989, 1433, 1434, 1521, 1900, 2222, 2375, 2376, 2049, 5601, 3306, 3389, 5432, 5060, 5061, 5900, 5985, 5986, 6379, 8000, 8080, 8443, 9042, 10443, 30015, 27017]
 
 COMMON_PORTS_UDP = [53, 67, 68, 69, 123, 137, 138, 161, 162, 389, 500, 514, 520, 1434, 1900, 3478, 4500, 5353, 5683, 11211, 27015]
 
