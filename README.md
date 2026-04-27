@@ -37,11 +37,13 @@ Licensed under the [MIT License](LICENSE).
 
 For a detailed list of all common ports scanned by Uspector, see [PORTS.md](PORTS.md)
 
-<br>
+---
 
-![Uspector LAN Scanning Screenshot](media/uspector_screenshot1.png)
+## Kali Linux
 
-![Uspector Traffic Inspection Screenshot](media/uspector_screenshot2.png)
+![Uspector – LAN Scanning](media/uspector_screenshot1.png)
+
+![Uspector – Traffic Inspection](media/uspector_screenshot2.png)
 
 ---
 
